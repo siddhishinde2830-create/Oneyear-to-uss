@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Our One Year 🤍</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background: #fff4ee;
+  color: #4a2c2a;
+  text-align: center;
+}
+
+section {
+  padding: 50px 20px;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+.message {
+  max-width: 600px;
+  margin: auto;
+  font-size: 1.1em;
+  line-height: 1.8;
+}
+
+.gallery img {
+  width: 90%;
+  max-width: 280px;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+button {
+  background: #c97b63;
+  color: white;
+  border: none;
+  padding: 12px 22px;
+  border-radius: 25px;
+  font-size: 1em;
+}
+</style>
+</head>
+
+<body>
+
+<section>
+  <h1>One Year of Us 🤍</h1>
+  <p>365 days. One story. Always you.</p>
+</section>
+
+<section class="message">
+  <p>
+    A year ago, I didn’t know how deeply someone could become home.  
+    With you, every little moment feels safe, real, and beautiful.  
+    Thank you for choosing me — every single day.
+  </p>
+</section>
+
+<section>
+  <p>Press play before reading 🤍</p>
+  <button onclick="playSong()">▶ Play our song</button>
+  <audio id="song">
+    <source src="song.mp3" type="audio/mpeg">
+  </audio>
+</section>
+
+<section class="gallery">
+  <img src="photo1.jpg">
+  <img src="photo2.jpg">
+  <img src="photo3.jpg">
+</section>
+
+<script>
+function playSong() {
+  document.getElementById("song").play();
+}
+</script>
+
+</body>
+</html>
